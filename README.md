@@ -18,4 +18,4 @@ All async functions available as props in your React component (through props di
 
 This npm package makes the loading status and/or error message of your calls for data immediately accessible in your front end components. 
 
-
+[View package source](https://github.com/e-l-i-s-e/loader-hoc)
