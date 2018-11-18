@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-const Loading = (WrappedComponent) => {
+const LoaderWrapper = (WrappedComponent) => {
   return class Wrapper extends Component {
     constructor(props) {
       super(props);
@@ -55,4 +55,4 @@ const Loading = (WrappedComponent) => {
   }
 };
 
-export default Loading;
+export default LoaderWrapper;
